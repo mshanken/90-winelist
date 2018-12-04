@@ -1,0 +1,172 @@
+//
+// Custom Styles
+//
+
+// Custom
+// @import "../tools/mixins";
+@import "bower_components/bootstrap/scss/variables";
+// @import "bower_components/bootstrap/scss/bootstrap";
+
+$theme-colors: map-merge((
+  "blue":       $blue,
+  "indigo":     $indigo,
+  "purple":     $purple,
+  "pink":       $pink,
+  "red":        $red,
+  "orange":     $orange,
+  "yellow":     $yellow,
+  "green":      $green,
+  "teal":       $teal,
+  "cyan":       $cyan,
+  "white":      $white,
+  "gray":       $gray-100,
+  "gray-dark":  $gray-800,
+  "dark":		$gray-800
+), $theme-colors);
+
+@import "bower_components/bootstrap/scss/utilities/text";
+@import "bower_components/bootstrap/scss/utilities/background";
+
+@each $breakpoint in map-keys($grid-breakpoints) {
+  @include media-breakpoint-up($breakpoint) {
+    $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+	
+	@each $color, $value in $theme-colors {
+	  @include text-emphasis-variant(".text#{$infix}-#{$color}", $value);
+	  @include bg-variant(".bg#{$infix}-#{$color}", $value);
+	}
+  }
+}
+
+// stylelint-disable
+// (adds more margin and padding classes)
+$spacer: 1rem !default;
+$spacers: () !default;
+$spacers: map-merge((
+	'minus-5': #{(-5px/16px)}rem,
+	'minus-4': #{(-4px/16px)}rem,
+	'minus-3': #{(-3px/16px)}rem,
+	'minus-2': #{(-2px/16px)}rem,
+	'minus-1': #{(-1px/16px)}rem,
+	8: #{(8px/16px)}rem,
+	9: #{(9px/16px)}rem,
+	10: #{(10px/16px)}rem,
+	15: #{(15px/16px)}rem,
+	16: #{(16px/16px)}rem,
+	20: #{(20px/16px)}rem,
+	25: #{(25px/16px)}rem,
+	24: #{(24px/16px)}rem,
+	27: #{(27px/16px)}rem,
+	30: #{(30px/16px)}rem,
+	32: #{(32px/16px)}rem,
+	35: #{(35px/16px)}rem,
+	37: #{(37px/16px)}rem,
+	40: #{(40px/16px)}rem,
+	45: #{(45px/16px)}rem,
+	50: #{(50px/16px)}rem,
+	55: #{(55px/16px)}rem,
+	60: #{(60px/16px)}rem,
+	65: #{(65px/16px)}rem,
+	70: #{(70px/16px)}rem,
+	75: #{(75px/16px)}rem,
+	80: #{(80px/16px)}rem,
+	85: #{(85px/16px)}rem,
+	90: #{(90px/16px)}rem,
+	95: #{(95px/16px)}rem,
+	100: #{(100px/16px)}rem,
+	105: #{(105px/16px)}rem,
+	110: #{(110px/16px)}rem,
+	115: #{(115px/16px)}rem,
+	120: #{(120px/16px)}rem,
+	125: #{(125px/16px)}rem,
+	130: #{(130px/16px)}rem,
+	135: #{(135px/16px)}rem,
+	140: #{(140px/16px)}rem,
+	145: #{(145px/16px)}rem,
+	150: #{(150px/16px)}rem,
+	155: #{(155px/16px)}rem,
+	160: #{(160px/16px)}rem,
+	165: #{(165px/16px)}rem,
+	170: #{(170px/16px)}rem,
+	200: #{(200px/16px)}rem,
+	250: #{(250px/16px)}rem,
+	300: #{(300px/16px)}rem,
+	350: #{(350px/16px)}rem,
+	400: #{(400px/16px)}rem,
+	5x: 5%,
+	10x: 10%,
+	15x: 15%,
+	20x: 20%,
+	25x: 25%,
+	30x: 30%,
+	35x: 35%,
+	40x: 40%,
+	45x: 45%,
+	50x: 50%,
+	55x: 55%,
+	60x: 60%,
+	65x: 65%,
+	70x: 70%,
+	75x: 75%,
+	80x: 80%,
+	85x: 85%,
+	90x: 90%,
+	95x: 95%,
+	100x: 100%
+), $spacers);
+
+@import "bower_components/bootstrap/scss/utilities/spacing";
+
+
+// This variable affects the `.h-*` and `.w-*` classes.
+$sizes: () !default;
+$sizes: map-merge((
+	25: #{(25px/14px)}rem,
+	50: #{(50px/14px)}rem,
+	75: #{(75px/14px)}rem,
+	100: #{(100px/14px)}rem,
+	/* 0: 0,
+	1: ($spacer * .25),
+	2: ($spacer * .5),
+	3: $spacer,
+	4: ($spacer * 1.5),
+	5: ($spacer * 3) */
+	5x: 5%,
+	10x: 10%,
+	15x: 15%,
+	20x: 20%,
+	25x: 25%,
+	30x: 30%,
+	35x: 35%,
+	40x: 40%,
+	45x: 45%,
+	50x: 50%,
+	55x: 55%,
+	60x: 60%,
+	65x: 65%,
+	70x: 70%,
+	75x: 75%,
+	80x: 80%,
+	85x: 85%,
+	90x: 90%,
+	95x: 95%,
+	100x: 100%,
+	auto: auto
+), $sizes);
+
+// Replaces sizes for .h .w
+@each $breakpoint in map-keys($grid-breakpoints) {
+	@include media-breakpoint-up($breakpoint) {
+		$infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+
+		@each $prop, $abbrev in (width: w, height: h) {
+			@each $size, $length in $sizes {
+				.#{$abbrev}#{$infix}-#{$size} { #{$prop}: $length !important; }
+			}
+		}
+
+		.mw#{$infix}-100 { max-width: 100% !important; }
+		.mh#{$infix}-100 { max-height: 100% !important; }
+
+	}
+}

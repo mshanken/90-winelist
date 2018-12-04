@@ -1,13 +1,509 @@
 {
 	"index": {
-		"title": "Harp Boiler Plate",
-		"site_tagline":"A boilerplate to build a static website dinamically"
-	},
-	"info": {
-		"title": "Your global variables"
-	},
-	"about": {
-		"title": "About page from a sub-dir"
+		"title": "90+ Wine List",
+		"site_tagline":"The single most important luxury wine portfolio in Americay",
+		"winelist": {
+			"Penfolds": {
+				"img": "Penfolds.png",
+				"href": "https://www.penfolds.com/",
+				"caption": "3",
+				"data":[
+				{
+					"points": 98,
+					"winery": "Penfolds",
+					"vintage": "2014 Grange"
+				},
+				{
+					"points": 98,
+					"winery": "Penfolds",
+					"vintage": "2016 Bin 707 Cabernet Sauvignon"
+				},
+				{
+					"points": 97,
+					"winery": "Penfolds",
+					"vintage": "2016 RWT Shiraz"
+				},
+				{
+					"points": 97,
+					"winery": "Penfolds",
+					"vintage": "2016 Bin 169 Cabernet Sauvignon"
+				},
+				{
+					"points": 96,
+					"winery": "Penfolds",
+					"vintage": "2016 Yattarna Chardonnay"
+				},
+				{
+					"points": 96,
+					"winery": "Penfolds",
+					"vintage": "2016 Magill Estate Shiraz"
+				},
+				{
+					"points": 94,
+					"winery": "Penfolds",
+					"vintage": "2016 Bin 150 Marananga Shiraz"
+				},
+				{
+					"points": 93,
+					"winery": "Penfolds",
+					"vintage": "2017 Bin 311 Chardonnay"
+				},
+				{
+					"points": 93,
+					"winery": "Penfolds",
+					"vintage": "2015 St. Henri Shiraz"
+				},
+				{
+					"points": 92,
+					"winery": "Penfolds",
+					"vintage": "2018 Bin 51 Riesling"
+				},
+				{
+					"points": 91,
+					"winery": "Penfolds",
+					"vintage": "2016 Bin 128 Shiraz"
+				},
+				{
+					"points": 91,
+					"winery": "Penfolds",
+					"vintage": "2015 Bin 389 Cabernet Shiraz"
+				},
+				{
+					"points": 91,
+					"winery": "Penfolds",
+					"vintage": "2016 Bin 138 Shiraz Grenache Mataro"
+				},
+				{
+					"points": 90,
+					"winery": "Penfolds",
+					"vintage": "2016 Bin 407 Cabernet Sauvignon"
+				}
+			]},
+			"Beaulieu Vineyard": {
+				"img": "bv.png",
+				"href": "https://www.bvwines.com/",
+				"caption": "",
+				"data": [
+				{
+					"points": 96,
+					"winery": "Beaulieu Vineyard",
+					"vintage": "2015 Georges de Latour Private Reserve Cabernet Sauvignon"
+				},
+				{
+					"points": 95,
+					"winery": "Beaulieu Vineyard",
+					"vintage": "2015 Clone 6 Cabernet Sauvignon"
+				},
+				{
+					"points": 94,
+					"winery": "Beaulieu Vineyard",
+					"vintage": "2015 Clone 4 Cabernet Sauvignon"
+				},
+				{
+					"points": 94,
+					"winery": "Beaulieu Vineyard",
+					"vintage": "2014 Madame de Latour Cabernet Sauvignon"
+				},
+				{
+					"points": 92,
+					"winery": "Beaulieu Vineyard",
+					"vintage": "2015 Tapestry"
+				},
+				{
+					"points": 90,
+					"winery": "Beaulieu Vineyard",
+					"vintage": "2016 Napa Valley Cabernet Sauvignon"
+				}
+			]},
+			"Stags’ Leap": {
+				"img": "Stags.png",
+				"href": "https://www.stagsleap.com",
+				"caption": "",
+				"data": [
+				{
+					"points": 96,
+					"winery": "Stags’ Leap",
+					"vintage": "2015 Audentia Cabernet Sauvignon"
+				},
+				{
+					"points": 95,
+					"winery": "Stags’ Leap",
+					"vintage": "2015 The Leap Cabernet Sauvignon"
+				},
+				{
+					"points": 94,
+					"winery": "Stags’ Leap",
+					"vintage": "2015 Twelve Falls"
+				},
+				{
+					"points": 94,
+					"winery": "Stags’ Leap",
+					"vintage": "2015 Coombsville Cabernet Sauvignon"
+				},
+				{
+					"points": 94,
+					"winery": "Stags’ Leap",
+					"vintage": "2016 Cabernet Sauvignon"
+				},
+				{
+					"points": 94,
+					"winery": "Stags’ Leap",
+					"vintage": "2015 Ne Cede Malis Petite Sirah"
+				},
+				{
+					"points": 92,
+					"winery": "Stags’ Leap",
+					"vintage": "2015 The Investor"
+				},
+				{
+					"points": 92,
+					"winery": "Stags’ Leap",
+					"vintage": "2017 Barrel Selection Chardonnay"
+				},
+				{
+					"points": 91,
+					"winery": "Stags’ Leap",
+					"vintage": "2017 Viognier"
+				},
+				{
+					"points": 91,
+					"winery": "Stags’ Leap",
+					"vintage": "2015 Block 20 Estate Merlot"
+				},
+				{
+					"points": 90,
+					"winery": "Stags’ Leap",
+					"vintage": "2017 Chardonnay"
+				},
+				{
+					"points": 90,
+					"winery": "Stags’ Leap",
+					"vintage": "2016 Petite Sirah"
+				}
+			]},
+			"Beringer": {
+				"img": "Beringer.png",
+				"href": "https://www.beringer.com/",
+				"caption": "",
+				"data": [
+				{
+					"points": 95,
+					"winery": "Beringer Vineyards",
+					"vintage": "2016 Home Vineyard Cabernet Sauvignon"
+				},
+				{
+					"points": 95,
+					"winery": "Beringer Vineyards",
+					"vintage": "2016 Chabot Vineyard Cabernet Sauvignon"
+				},
+				{
+					"points": 95,
+					"winery": "Beringer Vineyards",
+					"vintage": "2016 Private Reserve Cabernet Sauvignon"
+				},
+				{
+					"points": 94,
+					"winery": "Beringer Vineyards",
+					"vintage": "2016 Lampyridae Vineyard Cabernet Sauvignon"
+				},
+				{
+					"points": 94,
+					"winery": "Beringer Vineyards",
+					"vintage": "2016 Marston Vineyard Cabernet Sauvignon"
+				},
+				{
+					"points": 93,
+					"winery": "Beringer Vineyards",
+					"vintage": "2017 Private Reserve Chardonnay  "
+				},
+				{
+					"points": 93,
+					"winery": "Beringer Vineyards",
+					"vintage": "2016 Knights Valley  Reserve Cabernet Sauvignon"
+				},
+				{
+					"points": 93,
+					"winery": "Beringer Vineyards",
+					"vintage": "2016 Napa Valley Distinctions Cabernet Sauvignon"
+				},
+				{
+					"points": 93,
+					"winery": "Beringer Vineyards",
+					"vintage": "2016 Steinhauer Vineyard Cabernet Franc"
+				},
+				{
+					"points": 92,
+					"winery": "Beringer Vineyards",
+					"vintage": "2016 Luminus Chardonnay"
+				},
+				{
+					"points": 92,
+					"winery": "Beringer Vineyards",
+					"vintage": "2016 Steinhauer Ranch Cabernet Sauvignon"
+				},
+				{
+					"points": 92,
+					"winery": "Beringer Vineyards",
+					"vintage": "2017 Bancroft Ranch Cabernet Sauvignon"
+				},
+				{
+					"points": 92,
+					"winery": "Beringer Vineyards",
+					"vintage": "2017 Bancroft Ranch Merlot"
+				},
+				{
+					"points": 91,
+					"winery": "Beringer Vineyards",
+					"vintage": "2016 Vogt Vineyard Cabernet Sauvignon"
+				},
+				{
+					"points": 91,
+					"winery": "Beringer Vineyards",
+					"vintage": "2016 Knights Valley Cabernet Sauvignon"
+				}
+			]}, 
+			"Chateau St Jean": {
+				"img": "CSJ.png",
+				"href": "https://www.chateaustjean.com/",
+				"caption": "",
+				"data": [
+				{
+					"points": 94,
+					"winery": "Chateau St Jean",
+					"vintage": "2016 Robert Young Vineyard Reserve Chardonnay"
+				},
+				{
+					"points": 94,
+					"winery": "Chateau St Jean",
+					"vintage": "2016 Gap’s Crown Vineyard Chardonnay"
+				},
+				{
+					"points": 93,
+					"winery": "Chateau St Jean",
+					"vintage": "2015 Cinq Cepagés"
+				},
+				{
+					"points": 93,
+					"winery": "Chateau St Jean",
+					"vintage": "2016 Belle Terre Vineyard Chardonnay"
+				},
+				{
+					"points": 93,
+					"winery": "Chateau St Jean",
+					"vintage": "2016 Durell Vineyard Chardonnay"
+				},
+				{
+					"points": 93,
+					"winery": "Chateau St Jean",
+					"vintage": "2016 Benoist Ranch Pinot Noir"
+					
+				},
+				{
+					"points": 92,
+					"winery": "Chateau St Jean",
+					"vintage": "2016 Cold Creek Vineyard Chardonnay"
+				},
+				{
+					"points": 92,
+					"winery": "Chateau St Jean",
+					"vintage": "2015 Eighty-Five Fifty-Five"
+				},
+				{
+					"points": 92,
+					"winery": "Chateau St Jean",
+					"vintage": "2016 Reserve Pinot Noir"
+				},
+				{
+					"points": 92,
+					"winery": "Chateau St Jean",
+					"vintage": "2016 Halberg Vineyard Pinot Noir"
+				},
+				{
+					"points": 92,
+					"winery": "Chateau St Jean",
+					"vintage": "2015 Reserve Syrah"
+				},
+				{
+					"points": 91,
+					"winery": "Chateau St Jean",
+					"vintage": "2015 Reserve Malbec"
+				},
+				{
+					"points": 90,
+					"winery": "Chateau St Jean",
+					"vintage": "2016 Robert Young Vineyard Chardonnay"
+				},
+				{
+					"points": 90,
+					"winery": "Chateau St Jean",
+					"vintage": "2015 Alexander Valley Malbec"
+				}
+			]},
+			"Hewitt Vineyard": {
+				"img": "Hewitt.png",
+				"href": "https://www.hewittvineyard.com/",
+				"caption": "",
+				"data": [
+				{
+					"points": 95,
+					"winery": "Hewitt Vineyard",
+					"vintage": "2015 Double Plus Cabernet Sauvignon"
+				},
+				{
+					"points": 93,
+					"winery": "Hewitt Vineyard",
+					"vintage": "2015 Cabernet Sauvignon"
+				}
+			]},
+			"Provenance": {
+				"img": "Provenance.png",
+				"href": "https://www.provenancevineyards.com/",
+				"caption": "",
+				"data": [
+				{
+					"points": 95,
+					"winery": "Provenance",
+					"vintage": "2015 Fortitude Cabernet Sauvignon"
+				},
+				{
+					"points": 93,
+					"winery": "Provenance",
+					"vintage": "2015 Barrel Select Cabernet Sauvignon"
+				},
+				{
+					"points": 93,
+					"winery": "Provenance",
+					"vintage": "2015 Calistoga Cabernet Franc"
+				},
+				{
+					"points": 92,
+					"winery": "Provenance",
+					"vintage": "2017 Rutherford Sauvignon Blanc"
+				},
+				{
+					"points": 92,
+					"winery": "Provenance",
+					"vintage": "2016 Rutherford Cabernet Sauvignon"
+				},
+				{
+					"points": 90,
+					"winery": "Provenance",
+					"vintage": "2016 Carneros Chardonnay  "
+				},
+				{
+					"points": 90,
+					"winery": "Provenance",
+					"vintage": "2016 Carneros Merlot"
+				}
+			]},
+			"Etude": {
+				"img": "Etude.png",
+				"href": "https://www.etudewines.com/",
+				"caption": "",
+				"data": [
+				{
+					"points": 94,
+					"winery": "Etude",
+					"vintage": "2015 Coombsville Cabernet Sauvignon"
+				},
+				{
+					"points": 94,
+					"winery": "Etude",
+					"vintage": "2015 Deer Camp Pinot Noir"
+				},
+				{
+					"points": 93,
+					"winery": "Etude",
+					"vintage": "2015 Oakville Cabernet Sauvignon"
+				},
+				{
+					"points": 93,
+					"winery": "Etude",
+					"vintage": "2016 North Canyon Vineyard Pinot Noir"
+				},
+				{
+					"points": 93,
+					"winery": "Etude",
+					"vintage": "2015 Rutherford Cabernet Sauvignon"
+				},
+				{
+					"points": 93,
+					"winery": "Etude",
+					"vintage": "2015 Napa Valley Cabernet Sauvignon"
+				},
+				{
+					"points": 92,
+					"winery": "Etude",
+					"vintage": "2016 Fiddlestix Vineyard Pinot Noir"
+				},
+				{
+					"points": 92,
+					"winery": "Etude",
+					"vintage": "2016 Forte-Fiddlestix Vineyard Pinot Noir"
+				},
+				{
+					"points": 91,
+					"winery": "Etude",
+					"vintage": "2016 Yamhela Vineyard Pinot Noir"
+				},
+				{
+					"points": 90,
+					"winery": "Etude",
+					"vintage": "2016 Estate Pinot Noir"
+				},
+				{
+					"points": 90,
+					"winery": "Etude",
+					"vintage": "2016 Grace Benoist Ranch Chardonnay"
+				}
+			]},
+			"Sterling Vineyards": {
+				"img": "Sterling.png",
+				"href": "https://www.sterlingvineyards.com/",
+				"caption": "",
+				"data": [
+				{
+					"points": 95,
+					"winery": "Sterling Vineyards",
+					"vintage": "2015 Yates Vineyard Cabernet Sauvignon"
+				},
+				{
+					"points": 93,
+					"winery": "Sterling Vineyards",
+					"vintage": "2015 Iridium Cabernet Sauvignon"
+				},
+				{
+					"points": 93,
+					"winery": "Sterling Vineyards",
+					"vintage": "2015 Sleeping Lady Vineyard Cabernet Sauvignon  "
+				},
+				{
+					"points": 92,
+					"winery": "Sterling Vineyards",
+					"vintage": "2015 Diamond Mountain Ranch Cabernet Sauvignon"
+				},
+				{
+					"points": 92,
+					"winery": "Sterling Vineyards",
+					"vintage": "2015 Calistoga Cabernet Sauvignon"
+				},
+				{
+					"points": 90,
+					"winery": "Sterling Vineyards",
+					"vintage": "2016 Reserve Chardonnay"
+				},
+				{
+					"points": 90,
+					"winery": "Sterling Vineyards",
+					"vintage": "2015 Platinum Cabernet Sauvignon"
+				},
+				{
+					"points": 90,
+					"winery": "Sterling Vineyards",
+					"vintage": "2015 Platinum Merlot"
+				}
+			]}
+		}
 	},
 	"sitemap": {
 		"layout": false

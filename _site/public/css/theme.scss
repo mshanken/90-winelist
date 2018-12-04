@@ -1,16 +1,21 @@
-/*!
- * Bootstrap v3.3.6 (http://getbootstrap.com)
- * Copyright 2011-2015 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
 
 //
 // Load core variables and mixins
 // --------------------------------------------------
-
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900');
 @import "bower_components/bootstrap/scss/functions";
 @import "custom";
 @import "bower_components/bootstrap/scss/bootstrap";
+@import "addons";
 //
 // Custom style starts here
 // --------------------------------------------------
+h1,h2,h3,h4,h5,h6 { font-family: 'Work Sans', sans-serif; }
+h2{ font-size: 28px; }
+.winelistcontent h5{ margin-bottom: 0; color: #B5121B; font-size: 18px; font-weight: bold; }
+.winelistcontent .points{  font-family: 'Work Sans', sans-serif;font-size: 30px; font-weight: bold; color: #4A4A4A; line-height: 1 }
+.winelistcontent p{ font-size: 14px; }
+.odd { background-color: #F7F7F7; }
+@include media-breakpoint-only(md) {
+	.off.offset-md-3{ margin-left: 0 !important; }
+}
