@@ -6,35 +6,39 @@
 		if ( odd % 2 == 0) {
 			tmpClassName = "even";
 		}else{
-			tmpClassName = "odd";
+			tmpClassName = "bg-gray";
 		}
 	%>
-	<div class="row <%= tmpClassName %> justify-content-center">
-		<div class="col-12 col-lg-8">
-		  	<a href="<%= public._data.index.winelist[winery].href %>"><img src="images/<%= public._data.index.winelist[winery].img %>" class="img-fluids my-30" alt="<%= winery %>" title="<%= winery %>"></a>
-			
-			<div class="row mb-40">
-			<% for(var i = 0; i < public._data.index.winelist[winery].data.length; i++){ %>
-				<% 
-					if ( i % 2 == 0) {
-						offsetclass = "";
-					}else{
-						offsetclass = "off";
-					}
-				%>
-				<div class="col-12 col-md-6 winelistcontent">
-					<div class="row no-gutters">
-						<div class="col-2 offset-2 col-md-2 <%= offsetclass %> offset-md-3 points">
-							<%= public._data.index.winelist[winery].data[i].points %>
+	<div class="wrapper <%= tmpClassName %>">
+		<aside class="container">
+			<div class="row justify-content-center">
+				<div class="col-10 col-md-10 col-lg-8 col-xl-6 text-center">
+				  	<a href="<%= public._data.index.winelist[winery].href %>"><img src="images/<%= public._data.index.winelist[winery].img %>" class="img-fluid my-30" alt="<%= winery %>" title="<%= winery %>"></a>
+					
+					<div class="row mb-40 text-left">
+					<% for(var i = 0; i < public._data.index.winelist[winery].data.length; i++){ %>
+						<% 
+							if ( i % 2 == 0) {
+								offsetclass = "";
+							}else{
+								offsetclass = "off";
+							}
+						%>
+						<div class="col-12 col-md-6 winelistcontent">
+							<div class="row no-gutters">
+								<div class="col-2 col-md-2 points">
+									<%= public._data.index.winelist[winery].data[i].points %>
+								</div>
+								<div class="col-8 col-md-8  col-lg-8">
+									<h5><%= public._data.index.winelist[winery].data[i].winery %></h5>
+									<p><%= public._data.index.winelist[winery].data[i].vintage %></p>
+								</div>
+							</div>
 						</div>
-						<div class="col-6 col-md-6">
-							<h5><%= public._data.index.winelist[winery].data[i].winery %></h5>
-							<p><%= public._data.index.winelist[winery].data[i].vintage %></p>
-						</div>
-					</div>
+				  	<% }; %>
+				  	</div>
 				</div>
-		  	<% }; %>
-		  	</div>
-		</div>
+			</div>
+		</aside>
 	</div>
 <% }; %>

@@ -11,11 +11,16 @@
 // Custom style starts here
 // --------------------------------------------------
 h1,h2,h3,h4,h5,h6 { font-family: 'Work Sans', sans-serif; }
-h2{ font-size: 28px; }
-.winelistcontent h5{ margin-bottom: 0; color: #B5121B; font-size: 18px; font-weight: bold; }
+h2{ font-size: 16px; color: #4A4A4A; }
+.winelistcontent h5{ margin-bottom: 0; color: #B5121B; font-size: 16px; font-weight: bold; }
 .winelistcontent .points{  font-family: 'Work Sans', sans-serif;font-size: 30px; font-weight: bold; color: #4A4A4A; line-height: 1 }
 .winelistcontent p{ font-size: 14px; }
 .odd { background-color: #F7F7F7; }
+.border-right{ border-right-width: 2px !important; }
 @include media-breakpoint-only(md) {
 	.off.offset-md-3{ margin-left: 0 !important; }
+}
+@include media-breakpoint-up(md) {
+	h2{ font-size: 28px; }
+	.winelistcontent h5{ font-size: 18px; }
 }
