@@ -123,6 +123,7 @@ $sizes: () !default;
 $sizes: map-merge((
 	25: #{(25px/14px)}rem,
 	50: #{(50px/14px)}rem,
+	60: #{(60px/14px)}rem,
 	75: #{(75px/14px)}rem,
 	100: #{(100px/14px)}rem,
 	/* 0: 0,
