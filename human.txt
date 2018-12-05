@@ -1,0 +1,19 @@
+/* TEAM */
+    Dev:Edison A. Leon
+    Contact: eleon@mshanken.com
+    Twitter: @elwebdeveloper
+    From:NY, NY. USA
+
+    Web designer: Eleni Stathakos
+    Contact: estathakos@mshanken.com
+    From:NY, NY. USA
+
+   Web designer: ken Ferris
+    Contact: kferris@mshanken.com
+    From:NY, NY. USA
+
+/* SITE */
+    Last update:2018/12/06
+    Language: English
+    Doctype:HTML5
+    IDE: Sublime Text, harp, sketch, bootstrap, sass, html, css, js
