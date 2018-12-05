@@ -1,45 +1,19 @@
-# http://humanstxt.org/
 /* TEAM */
+    Dev:Edison A. Leon
+    Contact: eleon@mshanken.com
+    Twitter: @elwebdeveloper
+    From:NY, NY. USA
 
-                            
-Your title: Your name.
+    Web designer: Eleni Stathakos
+    Contact: estathakos@mshanken.com
+    From:NY, NY. USA
 
-                            
-Site: email, link to a contact form, etc.
+   Web designer: ken Ferris
+    Contact: kferris@mshanken.com
+    From:NY, NY. USA
 
-                            
-Twitter: your Twitter username.
-
-                            
-Location: City, Country.
-
-                         
-                 
-                        [...]
-						
-
-							
-/* THANKS */
-
-							
-Name: name or url
-
-						
-                 
-                        [...]
-                        
-
-                            
 /* SITE */
-
-                            
-Last update: YYYY/MM/DD 
-
-                            
-Standards: HTML5, CSS3,..
-
-                            
-Components: Modernizr, jQuery, etc.
-
-                            
-Software: Software used for the development
+    Last update:2018/12/06
+    Language: English
+    Doctype:HTML5
+    IDE: Sublime Text, harp, sketch, bootstrap, sass, html, css, js
