@@ -59,7 +59,7 @@
 					"vintage": "2018 Bin 51 Riesling"
 				},
 				{
-					"points": 91,
+					"points": 92,
 					"winery": "Penfolds",
 					"vintage": "2016 Bin 128 Shiraz"
 				},
@@ -77,6 +77,11 @@
 					"points": 90,
 					"winery": "Penfolds",
 					"vintage": "2016 Bin 407 Cabernet Sauvignon"
+				},
+				{
+					"points": 91,
+					"winery": "Penfolds",
+					"vintage": "2016 Bin 28 Kalimna Shiraz"
 				}
 			]},
 			"Beaulieu Vineyard": {
@@ -257,7 +262,7 @@
 					"vintage": "2016 Vogt Vineyard Cabernet Sauvignon"
 				},
 				{
-					"points": 91,
+					"points": 90,
 					"winery": "Beringer Vineyards",
 					"vintage": "2016 Knights Valley Cabernet Sauvignon"
 				}
